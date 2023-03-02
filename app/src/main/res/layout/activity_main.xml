@@ -69,7 +69,15 @@
                 android:textSize="14sp"
                 android:background="@android:color/transparent"/>
             </com.google.android.material.textfield.TextInputLayout>
-
+            <ImageView
+                android:id="@+id/idIVSearch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="8.5"
+                android:background="@android:color/transparent"
+                android:src ="@drawable/ic_search"/>
         </LinearLayout>
 
         <TextView
