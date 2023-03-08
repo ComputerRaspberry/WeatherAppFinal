@@ -29,7 +29,7 @@ public class WeatherRVAdapter extends RecyclerView.Adapter<WeatherRVAdapter.View
 
         @NonNull
         @Override
-        public WeatherRVAdapter.ViewHolder onCreateViewHolder (@NonNull ViewGroup parent, int viewType) {
+        public WeatherRVAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
             View view = LayoutInflater.from(context).inflate(R.layout.weather_rv_item,parent,false);
             return new ViewHolder(view);
         }
